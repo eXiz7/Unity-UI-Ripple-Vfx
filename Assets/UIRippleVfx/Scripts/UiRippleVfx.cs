@@ -93,7 +93,11 @@ namespace VadimskyiLab.SimpleUI
         private void ClearCache()
         {
             if (_generatedTexture != null)
+            {
                 TextureStaticFactory.ReturnTexture(_generatedTexture);
+                _generatedTexture = null;
+            }
+
             _rippleSprite.sprite = null;
             if (_mask == null) return;
             Destroy(_mask);
@@ -137,8 +141,11 @@ namespace VadimskyiLab.SimpleUI
         {
             _fadeTweener?.Kill();
             _scaleTweener?.Kill();
-            if(_generatedTexture != null)
+            if (_generatedTexture != null)
+            {
                 TextureStaticFactory.ReturnTexture(_generatedTexture);
+                _generatedTexture = null;
+            }
         }
     }
 }

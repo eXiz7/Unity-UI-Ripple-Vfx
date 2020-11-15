@@ -1,0 +1,186 @@
+2020/11/05-18:23:37.715 2fa8 Delete type=3 #1
+2020/11/05-18:23:38.817 41ac Level-0 table #5: started
+2020/11/05-18:23:38.832 41ac Level-0 table #5: 5526134 bytes OK
+2020/11/05-18:23:38.835 41ac Delete type=0 #3
+2020/11/05-18:23:38.854 41ac Level-0 table #7: started
+2020/11/05-18:23:38.865 41ac Level-0 table #7: 4869002 bytes OK
+2020/11/05-18:23:38.867 41ac Delete type=0 #4
+2020/11/05-18:23:42.907 41ac Level-0 table #9: started
+2020/11/05-18:23:42.926 41ac Level-0 table #9: 3774687 bytes OK
+2020/11/05-18:23:42.929 41ac Delete type=0 #6
+2020/11/05-18:23:42.932 41ac Level-0 table #11: started
+2020/11/05-18:23:42.948 41ac Level-0 table #11: 3777338 bytes OK
+2020/11/05-18:23:42.950 41ac Delete type=0 #8
+2020/11/05-18:23:42.968 41ac Level-0 table #13: started
+2020/11/05-18:23:42.989 41ac Level-0 table #13: 4440765 bytes OK
+2020/11/05-18:23:42.991 41ac Delete type=0 #10
+2020/11/05-18:23:43.015 41ac Level-0 table #15: started
+2020/11/05-18:23:43.033 41ac Level-0 table #15: 4482438 bytes OK
+2020/11/05-18:23:43.035 41ac Delete type=0 #12
+2020/11/05-18:23:43.035 41ac Compacting 4@0 + 1@1 files
+2020/11/05-18:23:43.045 41ac Generated table #16: 2111 keys, 2111105 bytes
+2020/11/05-18:23:43.059 41ac Generated table #17: 5105 keys, 2160234 bytes
+2020/11/05-18:23:43.073 41ac Generated table #18: 4241 keys, 2156849 bytes
+2020/11/05-18:23:43.086 41ac Generated table #19: 4452 keys, 2163823 bytes
+2020/11/05-18:23:43.100 41ac Generated table #20: 2878 keys, 2173317 bytes
+2020/11/05-18:23:43.112 41ac Generated table #21: 3407 keys, 2167206 bytes
+2020/11/05-18:23:43.124 41ac Generated table #22: 3082 keys, 2152277 bytes
+2020/11/05-18:23:43.139 41ac Generated table #23: 1952 keys, 2164455 bytes
+2020/11/05-18:23:43.148 41ac Generated table #24: 699 keys, 499921 bytes
+2020/11/05-18:23:43.148 41ac Compacted 4@0 + 1@1 files => 17749187 bytes
+2020/11/05-18:23:43.150 41ac Delete type=2 #7
+2020/11/05-18:23:43.150 41ac Delete type=2 #9
+2020/11/05-18:23:43.150 41ac Delete type=2 #11
+2020/11/05-18:23:43.151 41ac Delete type=2 #13
+2020/11/05-18:23:43.151 41ac Delete type=2 #15
+2020/11/05-18:23:43.151 41ac compacted to: files[ 0 9 1 0 0 0 0 ]
+2020/11/05-18:23:43.151 41ac Compacting 1@1 + 1@2 files
+2020/11/05-18:23:43.164 41ac Generated table #25: 1151 keys, 2133282 bytes
+2020/11/05-18:23:43.170 41ac Generated table #26: 1231 keys, 585623 bytes
+2020/11/05-18:23:43.170 41ac Compacted 1@1 + 1@2 files => 2718905 bytes
+2020/11/05-18:23:43.171 41ac Delete type=2 #5
+2020/11/05-18:23:43.171 41ac Delete type=2 #16
+2020/11/05-18:23:43.171 41ac compacted to: files[ 0 8 2 0 0 0 0 ]
+2020/11/05-18:23:43.172 41ac Moved #17 to level-2 2160234 bytes OK: files[ 0 7 3 0 0 0 0 ]
+2020/11/05-18:23:43.174 41ac Moved #18 to level-2 2156849 bytes OK: files[ 0 6 4 0 0 0 0 ]
+2020/11/05-18:23:43.175 41ac Moved #19 to level-2 2163823 bytes OK: files[ 0 5 5 0 0 0 0 ]
+2020/11/05-18:23:43.188 41ac Level-0 table #28: started
+2020/11/05-18:23:43.206 41ac Level-0 table #28: 3870179 bytes OK
+2020/11/05-18:23:43.208 41ac Delete type=0 #14
+2020/11/05-18:23:43.249 41ac Level-0 table #30: started
+2020/11/05-18:23:43.271 41ac Level-0 table #30: 3851830 bytes OK
+2020/11/05-18:23:43.273 41ac Delete type=0 #27
+2020/11/05-18:23:43.293 41ac Level-0 table #32: started
+2020/11/05-18:23:43.311 41ac Level-0 table #32: 3812505 bytes OK
+2020/11/05-18:23:43.312 41ac Delete type=0 #29
+2020/11/05-18:23:43.379 41ac Level-0 table #34: started
+2020/11/05-18:23:43.408 41ac Level-0 table #34: 4332492 bytes OK
+2020/11/05-18:23:43.410 41ac Delete type=0 #31
+2020/11/05-18:23:43.410 41ac Compacting 4@0 + 5@1 files
+2020/11/05-18:23:43.424 41ac Generated table #35: 4902 keys, 2163337 bytes
+2020/11/05-18:23:43.440 41ac Generated table #36: 4966 keys, 2159812 bytes
+2020/11/05-18:23:43.456 41ac Generated table #37: 3695 keys, 2174005 bytes
+2020/11/05-18:23:43.468 41ac Generated table #38: 2398 keys, 2179932 bytes
+2020/11/05-18:23:43.489 41ac Generated table #39: 4007 keys, 2156529 bytes
+2020/11/05-18:23:43.490 41ac Level-0 table #42: started
+2020/11/05-18:23:43.511 41ac Level-0 table #42: 4011045 bytes OK
+2020/11/05-18:23:43.513 41ac Delete type=0 #33
+2020/11/05-18:23:43.525 41ac Generated table #41: 2991 keys, 2154873 bytes
+2020/11/05-18:23:43.544 41ac Generated table #43: 1811 keys, 2170404 bytes
+2020/11/05-18:23:43.558 41ac Generated table #44: 3180 keys, 2173625 bytes
+2020/11/05-18:23:43.575 41ac Generated table #45: 2803 keys, 2165889 bytes
+2020/11/05-18:23:43.576 41ac Level-0 table #48: started
+2020/11/05-18:23:43.595 41ac Level-0 table #48: 3900887 bytes OK
+2020/11/05-18:23:43.596 41ac Delete type=0 #40
+2020/11/05-18:23:43.608 41ac Generated table #47: 3255 keys, 2175515 bytes
+2020/11/05-18:23:43.623 41ac Generated table #49: 2424 keys, 2174051 bytes
+2020/11/05-18:23:43.631 41ac Generated table #50: 1574 keys, 1053449 bytes
+2020/11/05-18:23:43.631 41ac Compacted 4@0 + 5@1 files => 24901421 bytes
+2020/11/05-18:23:43.632 41ac Delete type=2 #20
+2020/11/05-18:23:43.632 41ac Delete type=2 #21
+2020/11/05-18:23:43.632 41ac Delete type=2 #22
+2020/11/05-18:23:43.633 41ac Delete type=2 #23
+2020/11/05-18:23:43.633 41ac Delete type=2 #24
+2020/11/05-18:23:43.633 41ac Delete type=2 #28
+2020/11/05-18:23:43.633 41ac Delete type=2 #30
+2020/11/05-18:23:43.634 41ac Delete type=2 #32
+2020/11/05-18:23:43.634 41ac Delete type=2 #34
+2020/11/05-18:23:43.635 41ac compacted to: files[ 2 12 5 0 0 0 0 ]
+2020/11/05-18:23:43.635 41ac Compacting 1@1 + 1@2 files
+2020/11/05-18:23:43.651 41ac Generated table #51: 3953 keys, 2171605 bytes
+2020/11/05-18:23:43.659 41ac Level-0 table #54: started
+2020/11/05-18:23:43.675 41ac Level-0 table #54: 3806105 bytes OK
+2020/11/05-18:23:43.677 41ac Delete type=0 #46
+2020/11/05-18:23:43.690 41ac Generated table #53: 4194 keys, 2165896 bytes
+2020/11/05-18:23:43.691 41ac Compacted 1@1 + 1@2 files => 4337501 bytes
+2020/11/05-18:23:43.692 41ac Delete type=2 #19
+2020/11/05-18:23:43.692 41ac Delete type=2 #37
+2020/11/05-18:23:43.692 41ac compacted to: files[ 3 11 6 0 0 0 0 ]
+2020/11/05-18:23:43.693 41ac Moved #38 to level-2 2179932 bytes OK: files[ 3 10 7 0 0 0 0 ]
+2020/11/05-18:23:43.694 41ac Moved #39 to level-2 2156529 bytes OK: files[ 3 9 8 0 0 0 0 ]
+2020/11/05-18:23:43.696 41ac Moved #41 to level-2 2154873 bytes OK: files[ 3 8 9 0 0 0 0 ]
+2020/11/05-18:23:43.697 41ac Moved #43 to level-2 2170404 bytes OK: files[ 3 7 10 0 0 0 0 ]
+2020/11/05-18:23:43.698 41ac Moved #44 to level-2 2173625 bytes OK: files[ 3 6 11 0 0 0 0 ]
+2020/11/05-18:23:43.699 41ac Moved #45 to level-2 2165889 bytes OK: files[ 3 5 12 0 0 0 0 ]
+2020/11/05-18:23:43.717 41ac Level-0 table #56: started
+2020/11/05-18:23:43.735 41ac Level-0 table #56: 4167840 bytes OK
+2020/11/05-18:23:43.736 41ac Delete type=0 #52
+2020/11/05-18:23:43.737 41ac Compacting 4@0 + 5@1 files
+2020/11/05-18:23:43.749 41ac Generated table #57: 4922 keys, 2161895 bytes
+2020/11/05-18:23:43.760 41ac Generated table #58: 4988 keys, 2159611 bytes
+2020/11/05-18:23:43.774 41ac Generated table #59: 5116 keys, 2156849 bytes
+2020/11/05-18:23:43.787 41ac Generated table #60: 5361 keys, 2150781 bytes
+2020/11/05-18:23:43.791 41ac Generated table #61: 760 keys, 414561 bytes
+2020/11/05-18:23:43.803 41ac Generated table #62: 3122 keys, 2175126 bytes
+2020/11/05-18:23:43.815 41ac Generated table #63: 3752 keys, 2154115 bytes
+2020/11/05-18:23:43.828 41ac Generated table #64: 2405 keys, 2178589 bytes
+2020/11/05-18:23:43.840 41ac Generated table #65: 3096 keys, 2162283 bytes
+2020/11/05-18:23:43.852 41ac Generated table #66: 2882 keys, 2167763 bytes
+2020/11/05-18:23:43.868 41ac Generated table #67: 3669 keys, 2155585 bytes
+2020/11/05-18:23:43.881 41ac Generated table #68: 3225 keys, 2157464 bytes
+2020/11/05-18:23:43.889 41ac Generated table #69: 1824 keys, 1323989 bytes
+2020/11/05-18:23:43.889 41ac Compacted 4@0 + 5@1 files => 25518611 bytes
+2020/11/05-18:23:43.890 41ac Delete type=2 #35
+2020/11/05-18:23:43.890 41ac Delete type=2 #36
+2020/11/05-18:23:43.890 41ac Delete type=2 #42
+2020/11/05-18:23:43.890 41ac Delete type=2 #47
+2020/11/05-18:23:43.891 41ac Delete type=2 #48
+2020/11/05-18:23:43.891 41ac Delete type=2 #49
+2020/11/05-18:23:43.891 41ac Delete type=2 #50
+2020/11/05-18:23:43.891 41ac Delete type=2 #54
+2020/11/05-18:23:43.892 41ac Delete type=2 #56
+2020/11/05-18:23:43.892 41ac compacted to: files[ 0 13 12 0 0 0 0 ]
+2020/11/05-18:23:43.893 41ac Moved #62 to level-2 2175126 bytes OK: files[ 0 12 13 0 0 0 0 ]
+2020/11/05-18:23:43.894 41ac Moved #63 to level-2 2154115 bytes OK: files[ 0 11 14 0 0 0 0 ]
+2020/11/05-18:23:43.895 41ac Moved #64 to level-2 2178589 bytes OK: files[ 0 10 15 0 0 0 0 ]
+2020/11/05-18:23:43.896 41ac Moved #65 to level-2 2162283 bytes OK: files[ 0 9 16 0 0 0 0 ]
+2020/11/05-18:23:43.897 41ac Moved #66 to level-2 2167763 bytes OK: files[ 0 8 17 0 0 0 0 ]
+2020/11/05-18:23:43.899 41ac Moved #67 to level-2 2155585 bytes OK: files[ 0 7 18 0 0 0 0 ]
+2020/11/05-18:23:43.900 41ac Moved #68 to level-2 2157464 bytes OK: files[ 0 6 19 0 0 0 0 ]
+2020/11/05-18:23:43.926 41ac Level-0 table #71: started
+2020/11/05-18:23:43.945 41ac Level-0 table #71: 3980042 bytes OK
+2020/11/05-18:23:43.947 41ac Delete type=0 #55
+2020/11/05-18:23:44.195 41ac Compacting 1@1 + 5@2 files
+2020/11/05-18:23:44.205 41ac Generated table #72: 1152 keys, 2133635 bytes
+2020/11/05-18:23:44.221 41ac Generated table #73: 4624 keys, 2163318 bytes
+2020/11/05-18:23:44.236 41ac Generated table #74: 5287 keys, 2149349 bytes
+2020/11/05-18:23:44.250 41ac Generated table #75: 4120 keys, 2166552 bytes
+2020/11/05-18:23:44.262 41ac Generated table #76: 4533 keys, 2161667 bytes
+2020/11/05-18:23:44.266 41ac Generated table #77: 883 keys, 587667 bytes
+2020/11/05-18:23:44.266 41ac Compacted 1@1 + 5@2 files => 11362188 bytes
+2020/11/05-18:23:44.268 41ac Delete type=2 #17
+2020/11/05-18:23:44.268 41ac Delete type=2 #18
+2020/11/05-18:23:44.268 41ac Delete type=2 #25
+2020/11/05-18:23:44.269 41ac Delete type=2 #26
+2020/11/05-18:23:44.269 41ac Delete type=2 #51
+2020/11/05-18:23:44.269 41ac Delete type=2 #57
+2020/11/05-18:23:44.269 41ac compacted to: files[ 1 5 20 0 0 0 0 ]
+2020/11/05-18:24:49.521 41ac Compacting 1@0 + 5@1 files
+2020/11/05-18:24:49.534 41ac Generated table #78: 4993 keys, 2159323 bytes
+2020/11/05-18:24:49.547 41ac Generated table #79: 5116 keys, 2156849 bytes
+2020/11/05-18:24:49.560 41ac Generated table #80: 5361 keys, 2150781 bytes
+2020/11/05-18:24:49.565 41ac Generated table #81: 982 keys, 490270 bytes
+2020/11/05-18:24:49.576 41ac Generated table #82: 3464 keys, 2157002 bytes
+2020/11/05-18:24:49.587 41ac Generated table #83: 2779 keys, 2171296 bytes
+2020/11/05-18:24:49.594 41ac Generated table #84: 1354 keys, 893779 bytes
+2020/11/05-18:24:49.594 41ac Compacted 1@0 + 5@1 files => 12179300 bytes
+2020/11/05-18:24:49.595 41ac Delete type=2 #58
+2020/11/05-18:24:49.595 41ac Delete type=2 #59
+2020/11/05-18:24:49.595 41ac Delete type=2 #60
+2020/11/05-18:24:49.596 41ac Delete type=2 #61
+2020/11/05-18:24:49.596 41ac Delete type=2 #69
+2020/11/05-18:24:49.596 41ac Delete type=2 #71
+2020/11/05-18:24:49.596 41ac compacted to: files[ 0 7 20 0 0 0 0 ]
+2020/11/05-18:24:49.596 41ac Compacting 1@1 + 4@2 files
+2020/11/05-18:24:49.608 41ac Generated table #85: 4629 keys, 2163797 bytes
+2020/11/05-18:24:49.621 41ac Generated table #86: 5287 keys, 2149349 bytes
+2020/11/05-18:24:49.634 41ac Generated table #87: 4120 keys, 2166552 bytes
+2020/11/05-18:24:49.647 41ac Generated table #88: 5054 keys, 2156480 bytes
+2020/11/05-18:24:49.660 41ac Generated table #89: 4467 keys, 2164838 bytes
+2020/11/05-18:24:49.660 41ac Compacted 1@1 + 4@2 files => 10801016 bytes
+2020/11/05-18:24:49.661 41ac Delete type=2 #73
+2020/11/05-18:24:49.661 41ac Delete type=2 #74
+2020/11/05-18:24:49.662 41ac Delete type=2 #75
+2020/11/05-18:24:49.662 41ac Delete type=2 #76
+2020/11/05-18:24:49.662 41ac Delete type=2 #78
+2020/11/05-18:24:49.662 41ac compacted to: files[ 0 6 21 0 0 0 0 ]

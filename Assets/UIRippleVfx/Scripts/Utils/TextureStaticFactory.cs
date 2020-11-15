@@ -2,7 +2,10 @@
  * You may use, distribute and modify this code under the
  * terms of the GPL-3.0 License license.
  */
+
+using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace VadimskyiLab.Utils
@@ -12,17 +15,22 @@ namespace VadimskyiLab.Utils
     /// </summary>
     public static class TextureStaticFactory
     {
-        private static Queue<Texture2D> _circlePool;
+        private static ConcurrentQueue<Texture2D> _circlePool;
         private static Color _transparent = new Color(255, 255, 255, 0);
 
         static TextureStaticFactory()
         {
-            _circlePool = new Queue<Texture2D>();
+            _circlePool = new ConcurrentQueue<Texture2D>();
         }
 
         public static void ReturnTexture(Texture2D tex)
         {
             if(tex == null) return;
+            if (_circlePool.Contains(tex))
+            {
+                UnityEngine.Debug.LogError($"Texture was already returned!");
+                return;
+            }
             _circlePool.Enqueue(tex);
         }
 
@@ -57,9 +65,8 @@ namespace VadimskyiLab.Utils
         private static Texture2D GetCircleTexture(int width, int height)
         {
             Texture2D tex = null;
-            if (_circlePool.Count > 0)
+            if (!_circlePool.IsEmpty && _circlePool.TryDequeue(out tex))
             {
-                tex = _circlePool.Dequeue();
                 if(tex.width != width || tex.height != height)
                     tex.Resize(width, height);
             }
